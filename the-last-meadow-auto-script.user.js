@@ -44,6 +44,15 @@
       flagRU: svgDataUri(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="21.33" y="0" fill="#ffffff"/><rect width="64" height="21.34" y="21.33" fill="#1d4ed8"/><rect width="64" height="21.33" y="42.67" fill="#dc2626"/></svg>',
       ),
+      flagDE: svgDataUri(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="21.33" y="0" fill="#111111"/><rect width="64" height="21.34" y="21.33" fill="#dc2626"/><rect width="64" height="21.33" y="42.67" fill="#f4c430"/></svg>',
+      ),
+      flagIT: svgDataUri(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="21.33" height="64" x="0" fill="#16a34a"/><rect width="21.34" height="64" x="21.33" fill="#ffffff"/><rect width="21.33" height="64" x="42.67" fill="#dc2626"/></svg>',
+      ),
+      flagKA: svgDataUri(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#ffffff"/><rect x="26" width="12" height="64" fill="#dc2626"/><rect y="26" width="64" height="12" fill="#dc2626"/><g fill="#dc2626"><rect x="10" y="8" width="4" height="12"/><rect x="6" y="12" width="12" height="4"/><rect x="50" y="8" width="4" height="12"/><rect x="46" y="12" width="12" height="4"/><rect x="10" y="44" width="4" height="12"/><rect x="6" y="48" width="12" height="4"/><rect x="50" y="44" width="4" height="12"/><rect x="46" y="48" width="12" height="4"/></g></svg>',
+      ),
     },
     ROT_MAP = {
       0: "ArrowUp",
@@ -235,6 +244,117 @@
         wrongGameAction: "Wrong Game",
         wrongGameHelp:
           '\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442 500 \u0431\u044b\u0441\u0442\u0440\u044b\u0445 \u043a\u043b\u0438\u043a\u043e\u0432 \u0434\u043b\u044f \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f "Wrong Game".',
+      },
+      de: {
+        adventure: "Abenteuer",
+        craft: "Herstellung",
+        wrongGame: "Falsches Spiel",
+        battle: "Kampf",
+        drag: "Zum Verschieben ziehen",
+        speeds: "Geschwindigkeitseinstellungen",
+        advLabel: "Abenteuer (ms)",
+        minigameDelay: "Kampf (ms)",
+        craftLabel: "Herstellung (ms)",
+        speedTip: "Niedriger = schneller",
+        craftIdle: "Wartet",
+        craftEntering: "\u00d6ffnet",
+        craftSolving: "L\u00f6st",
+        craftExiting: "Kehrt zur\u00fcck",
+        battleIdle: "Wartet",
+        battleEntering: "\u00d6ffnet",
+        battleActive: "Verteidigt",
+        battleDone: "Sieg",
+        battleExiting: "Kehrt zur\u00fcck",
+        paused: "Pausiert",
+        done: "Fertig",
+        noResources: "Keine Ressourcen",
+        stats: "Statistiken",
+        account: "Konto",
+        level: "Aktuelles Level",
+        levelsGained: "Erhaltene Level",
+        advCount: "Abenteuer",
+        craftCount: "Herstellungen",
+        battleCount: "K\u00e4mpfe",
+        clicksCount: "Klicks",
+        tabGeneral: "Allgemein",
+        tabAchievements: "Erfolge",
+        wrongGameAction: "Wrong Game",
+        wrongGameHelp:
+          'Sendet 500 schnelle Klicks f\u00fcr den "Wrong Game"-Erfolg.',
+      },
+      it: {
+        adventure: "Avventura",
+        craft: "Creazione",
+        wrongGame: "Gioco Sbagliato",
+        battle: "Battaglia",
+        drag: "Trascina per spostare",
+        speeds: "Impostazioni velocit\u00e0",
+        advLabel: "Avventura (ms)",
+        minigameDelay: "Battaglia (ms)",
+        craftLabel: "Creazione (ms)",
+        speedTip: "Pi\u00f9 basso = pi\u00f9 veloce",
+        craftIdle: "In attesa",
+        craftEntering: "Apertura",
+        craftSolving: "Risoluzione",
+        craftExiting: "Ritorno",
+        battleIdle: "In attesa",
+        battleEntering: "Apertura",
+        battleActive: "Difesa",
+        battleDone: "Vittoria",
+        battleExiting: "Ritorno",
+        paused: "In pausa",
+        done: "Fatto",
+        noResources: "Risorse esaurite",
+        stats: "Statistiche",
+        account: "Account",
+        level: "Livello attuale",
+        levelsGained: "Livelli ottenuti",
+        advCount: "Avventure",
+        craftCount: "Creazioni",
+        battleCount: "Battaglie",
+        clicksCount: "Clic",
+        tabGeneral: "Generale",
+        tabAchievements: "Obiettivi",
+        wrongGameAction: "Wrong Game",
+        wrongGameHelp:
+          'Invia 500 clic rapidi per l\'obiettivo "Wrong Game".',
+      },
+      ka: {
+        adventure: "\u10d7\u10d0\u10d5\u10d2\u10d0\u10d3\u10d0\u10e1\u10d0\u10d5\u10d0\u10da\u10d8",
+        craft: "\u10e5\u10e0\u10d0\u10e4\u10e2\u10d8",
+        wrongGame: "\u10d0\u10e0\u10d0\u10e1\u10ec\u10dd\u10e0\u10d8 \u10d7\u10d0\u10db\u10d0\u10e8\u10d8",
+        battle: "\u10d1\u10e0\u10eb\u10dd\u10da\u10d0",
+        drag: "\u10d2\u10d0\u10d3\u10d0\u10e1\u10d0\u10d0\u10d3\u10d2\u10d8\u10da\u10d4\u10d1\u10da\u10d0\u10d3 \u10d2\u10d0\u10d3\u10d0\u10d0\u10d7\u10e0\u10d8\u10d4",
+        speeds: "\u10e1\u10d8\u10e9\u10e5\u10d0\u10e0\u10d8\u10e1 \u10de\u10d0\u10e0\u10d0\u10db\u10d4\u10e2\u10e0\u10d4\u10d1\u10d8",
+        advLabel: "\u10d7\u10d0\u10d5\u10d2\u10d0\u10d3\u10d0\u10e1\u10d0\u10d5\u10d0\u10da\u10d8 (ms)",
+        minigameDelay: "\u10d1\u10e0\u10eb\u10dd\u10da\u10d0 (ms)",
+        craftLabel: "\u10e5\u10e0\u10d0\u10e4\u10e2\u10d8 (ms)",
+        speedTip: "\u10dc\u10d0\u10d9\u10da\u10d4\u10d1\u10d8 = \u10e3\u10e4\u10e0\u10dd \u10e1\u10ec\u10e0\u10d0\u10e4\u10d8",
+        craftIdle: "\u10da\u10dd\u10d3\u10d8\u10dc\u10d8",
+        craftEntering: "\u10d2\u10d0\u10ee\u10e1\u10dc\u10d0",
+        craftSolving: "\u10d0\u10db\u10dd\u10ee\u10e1\u10dc\u10d0",
+        craftExiting: "\u10d3\u10d0\u10d1\u10e0\u10e3\u10dc\u10d4\u10d1\u10d0",
+        battleIdle: "\u10da\u10dd\u10d3\u10d8\u10dc\u10d8",
+        battleEntering: "\u10d2\u10d0\u10ee\u10e1\u10dc\u10d0",
+        battleActive: "\u10d3\u10d0\u10ea\u10d5\u10d0",
+        battleDone: "\u10d2\u10d0\u10db\u10d0\u10e0\u10ef\u10d5\u10d4\u10d1\u10d0",
+        battleExiting: "\u10d3\u10d0\u10d1\u10e0\u10e3\u10dc\u10d4\u10d1\u10d0",
+        paused: "\u10e8\u10d4\u10e9\u10d4\u10e0\u10d4\u10d1\u10e3\u10da\u10d8",
+        done: "\u10d3\u10d0\u10e1\u10e0\u10e3\u10da\u10d3\u10d0",
+        noResources: "\u10e0\u10d4\u10e1\u10e3\u10e0\u10e1\u10d4\u10d1\u10d8 \u10d0\u10e0 \u10d0\u10e0\u10d8\u10e1",
+        stats: "\u10e1\u10e2\u10d0\u10e2\u10d8\u10e1\u10e2\u10d8\u10d9\u10d0",
+        account: "\u10d0\u10dc\u10d2\u10d0\u10e0\u10d8\u10e8\u10d8",
+        level: "\u10db\u10d8\u10db\u10d3\u10d8\u10dc\u10d0\u10e0\u10d4 \u10d3\u10dd\u10dc\u10d4",
+        levelsGained: "\u10db\u10d8\u10e6\u10d4\u10d1\u10e3\u10da\u10d8 \u10d3\u10dd\u10dc\u10d4\u10d4\u10d1\u10d8",
+        advCount: "\u10d7\u10d0\u10d5\u10d2\u10d0\u10d3\u10d0\u10e1\u10d0\u10d5\u10da\u10d4\u10d1\u10d8",
+        craftCount: "\u10e5\u10e0\u10d0\u10e4\u10e2\u10d4\u10d1\u10d8",
+        battleCount: "\u10d1\u10e0\u10eb\u10dd\u10da\u10d4\u10d1\u10d8",
+        clicksCount: "\u10d9\u10da\u10d8\u10d9\u10d4\u10d1\u10d8",
+        tabGeneral: "\u10d6\u10dd\u10d2\u10d0\u10d3\u10d8",
+        tabAchievements: "\u10db\u10d8\u10e6\u10ec\u10d4\u10d5\u10d4\u10d1\u10d8",
+        wrongGameAction: "Wrong Game",
+        wrongGameHelp:
+          '"Wrong Game" \u10db\u10d8\u10e6\u10ec\u10d4\u10d5\u10d8\u10e1\u10d7\u10d5\u10d8\u10e1 \u10d0\u10d2\u10d6\u10d0\u10d5\u10dc\u10d8\u10e1 500 \u10e1\u10ec\u10e0\u10d0\u10e4 \u10d3\u10d0\u10d9\u10da\u10d8\u10d9\u10d4\u10d1\u10d0\u10e1.',
       },
     };
   let advInterval = null,
@@ -1567,19 +1687,35 @@
         fr: ICONS.flagFR,
         tr: ICONS.flagTR,
         ru: ICONS.flagRU,
+        de: ICONS.flagDE,
+        it: ICONS.flagIT,
+        ka: ICONS.flagKA,
       };
       e.style.backgroundImage = `url("${t[lang] || ICONS.flagBR}")`;
     }
+    const t = {
+      pt: "Portugu\u00eas",
+      en: "English",
+      fr: "Fran\u00e7ais",
+      tr: "T\u00fcrk\u00e7e",
+      ru: "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+      de: "Deutsch",
+      it: "Italiano",
+      ka: "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8",
+    };
     document.querySelectorAll("[data-lang-option]").forEach((e) => {
-      const t = e.getAttribute("data-lang-option") === lang;
-      ((e.style.background = t ? "#00c78b" : "#f8f1e3"),
+      const n = e.getAttribute("data-lang-option"),
+        a = n === lang,
+        o = e.querySelector("span:last-child");
+      ((e.style.background = a ? "#00c78b" : "#f8f1e3"),
         (e.style.justifyContent = "flex-start"),
         (e.style.whiteSpace = "nowrap"),
         (e.style.color = "#1a1a1a"),
-        (e.style.boxShadow = t ? "inset 0 0 0 2px #1a1a1a" : "none"));
+        (e.style.boxShadow = a ? "inset 0 0 0 2px #1a1a1a" : "none"));
+      o && n && t[n] && (o.textContent = t[n]);
     });
-    const t = document.querySelector("#advBtn .btnText");
-    (t && setText(t, tx("adventure")),
+    const n = document.querySelector("#advBtn .btnText");
+    (n && setText(n, tx("adventure")),
       setText(document.getElementById("tabGeneral"), tx("tabGeneral")),
       setText(
         document.getElementById("tabAchievements"),
@@ -1591,14 +1727,14 @@
       ),
       setText(document.getElementById("wrongGameHelp"), tx("wrongGameHelp")),
       setText(document.getElementById("speedsTitle"), tx("speeds")));
-    const n = document.getElementById("advLabel");
-    n && (n.childNodes[0].textContent = tx("advLabel") + " : ");
-    const a = document.getElementById("sliderMinigameDelay")?.previousSibling;
-    a &&
-      a.nodeType === Node.ELEMENT_NODE &&
-      (a.childNodes[0].textContent = tx("minigameDelay") + " : ");
-    const o = document.getElementById("craftLabel");
-    (o && (o.childNodes[0].textContent = tx("craftLabel") + " : "),
+    const a = document.getElementById("advLabel");
+    a && (a.childNodes[0].textContent = tx("advLabel") + " : ");
+    const o = document.getElementById("sliderMinigameDelay")?.previousSibling;
+    o &&
+      o.nodeType === Node.ELEMENT_NODE &&
+      (o.childNodes[0].textContent = tx("minigameDelay") + " : ");
+    const r = document.getElementById("craftLabel");
+    (r && (r.childNodes[0].textContent = tx("craftLabel") + " : "),
       setText(document.getElementById("speedTip"), tx("speedTip")),
       refreshAccountInfo());
   }
@@ -1681,9 +1817,12 @@
         a.appendChild(r),
         D.appendChild(a));
     };
-    D && (D.style.minWidth = "140px");
+    D && (D.style.minWidth = "160px");
     appendLangOption("tr", "T\u00fcrk\u00e7e", ICONS.flagTR);
     appendLangOption("ru", "\u0420\u0443\u0441\u0441\u043a\u0438\u0439", ICONS.flagRU);
+    appendLangOption("de", "Deutsch", ICONS.flagDE);
+    appendLangOption("it", "Italiano", ICONS.flagIT);
+    appendLangOption("ka", "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8", ICONS.flagKA);
     H && ((H.style.maxHeight = "320px"), (H.style.overflowY = "auto"));
     const appendSettingRange = (e) => {
       if (!H) return null;
