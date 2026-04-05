@@ -17,6 +17,13 @@ Automation script for The Last Meadow.
 ## Files
 
 - `the-last-meadow-auto-script.user.js`: main script
+- `assets/the-last-meadow-preview.png`: visual preview
+
+## Preview
+
+Illustrative preview of the script while running in The Last Meadow:
+
+![The Last Meadow Auto Script Preview](assets/the-last-meadow-preview.png)
 
 ## Quick Start
 
