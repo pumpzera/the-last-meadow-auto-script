@@ -38,6 +38,12 @@
       flagEN: svgDataUri(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#b91c1c"/><g fill="#ffffff"><rect y="6" width="64" height="6"/><rect y="18" width="64" height="6"/><rect y="30" width="64" height="6"/><rect y="42" width="64" height="6"/><rect y="54" width="64" height="6"/></g><rect width="28" height="28" fill="#1e3a8a"/></svg>',
       ),
+      flagTR: svgDataUri(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#e11d48"/><circle cx="27" cy="32" r="14" fill="#ffffff"/><circle cx="31" cy="32" r="11" fill="#e11d48"/><polygon points="43,32 47,34 46,29 50,26 45,26 43,21 41,26 36,26 40,29 39,34" fill="#ffffff"/></svg>',
+      ),
+      flagRU: svgDataUri(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="21.33" y="0" fill="#ffffff"/><rect width="64" height="21.34" y="21.33" fill="#1d4ed8"/><rect width="64" height="21.33" y="42.67" fill="#dc2626"/></svg>',
+      ),
     },
     ROT_MAP = {
       0: "ArrowUp",
@@ -155,6 +161,80 @@
         wrongGameAction: "Wrong Game",
         wrongGameHelp:
           'Sends 500 rapid clicks for the "Wrong Game" achievement.',
+      },
+      tr: {
+        adventure: "Macera",
+        craft: "\u00dcretim",
+        wrongGame: "Yanl\u0131\u015f Oyun",
+        battle: "Sava\u015f",
+        drag: "Ta\u015f\u0131mak i\u00e7in s\u00fcr\u00fckle",
+        speeds: "H\u0131z Ayarlar\u0131",
+        advLabel: "Macera (ms)",
+        minigameDelay: "Sava\u015f (ms)",
+        craftLabel: "\u00dcretim (ms)",
+        speedTip: "Daha d\u00fc\u015f\u00fck = daha h\u0131zl\u0131",
+        craftIdle: "Bekliyor",
+        craftEntering: "A\u00e7\u0131l\u0131yor",
+        craftSolving: "\u00c7\u00f6z\u00fcl\u00fcyor",
+        craftExiting: "Geri d\u00f6n\u00fcl\u00fcyor",
+        battleIdle: "Bekliyor",
+        battleEntering: "A\u00e7\u0131l\u0131yor",
+        battleActive: "Savunuyor",
+        battleDone: "Zafer",
+        battleExiting: "Geri d\u00f6n\u00fcl\u00fcyor",
+        paused: "Duraklat\u0131ld\u0131",
+        done: "Tamamland\u0131",
+        noResources: "Kaynak yok",
+        stats: "\u0130statistikler",
+        account: "Hesap",
+        level: "Seviye",
+        levelsGained: "Kazan\u0131lan seviyeler",
+        advCount: "Maceralar",
+        craftCount: "\u00dcretimler",
+        battleCount: "Sava\u015flar",
+        clicksCount: "T\u0131klamalar",
+        tabGeneral: "Genel",
+        tabAchievements: "Ba\u015far\u0131lar",
+        wrongGameAction: "Wrong Game",
+        wrongGameHelp:
+          '"Wrong Game" ba\u015far\u0131m\u0131 i\u00e7in 500 h\u0131zl\u0131 t\u0131klama g\u00f6nderir.',
+      },
+      ru: {
+        adventure: "\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435",
+        craft: "\u041a\u0440\u0430\u0444\u0442",
+        wrongGame: "\u041d\u0435 \u0442\u0430 \u0438\u0433\u0440\u0430",
+        battle: "\u0411\u0438\u0442\u0432\u0430",
+        drag: "\u041f\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u0435 \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u043c\u0435\u0449\u0435\u043d\u0438\u044f",
+        speeds: "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438",
+        advLabel: "\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 (\u043c\u0441)",
+        minigameDelay: "\u0411\u0438\u0442\u0432\u0430 (\u043c\u0441)",
+        craftLabel: "\u041a\u0440\u0430\u0444\u0442 (\u043c\u0441)",
+        speedTip: "\u041c\u0435\u043d\u044c\u0448\u0435 = \u0431\u044b\u0441\u0442\u0440\u0435\u0435",
+        craftIdle: "\u041e\u0436\u0438\u0434\u0430\u043d\u0438\u0435",
+        craftEntering: "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435",
+        craftSolving: "\u0420\u0435\u0448\u0435\u043d\u0438\u0435",
+        craftExiting: "\u0412\u043e\u0437\u0432\u0440\u0430\u0442",
+        battleIdle: "\u041e\u0436\u0438\u0434\u0430\u043d\u0438\u0435",
+        battleEntering: "\u041e\u0442\u043a\u0440\u044b\u0442\u0438\u0435",
+        battleActive: "\u0417\u0430\u0449\u0438\u0442\u0430",
+        battleDone: "\u041f\u043e\u0431\u0435\u0434\u0430",
+        battleExiting: "\u0412\u043e\u0437\u0432\u0440\u0430\u0442",
+        paused: "\u041f\u0430\u0443\u0437\u0430",
+        done: "\u0413\u043e\u0442\u043e\u0432\u043e",
+        noResources: "\u041d\u0435\u0442 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432",
+        stats: "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430",
+        account: "\u0410\u043a\u043a\u0430\u0443\u043d\u0442",
+        level: "\u0423\u0440\u043e\u0432\u0435\u043d\u044c",
+        levelsGained: "\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u043e \u0443\u0440\u043e\u0432\u043d\u0435\u0439",
+        advCount: "\u041f\u0440\u0438\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f",
+        craftCount: "\u041a\u0440\u0430\u0444\u0442\u044b",
+        battleCount: "\u0411\u0438\u0442\u0432\u044b",
+        clicksCount: "\u041a\u043b\u0438\u043a\u0438",
+        tabGeneral: "\u041e\u0431\u0449\u0435\u0435",
+        tabAchievements: "\u0414\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f",
+        wrongGameAction: "Wrong Game",
+        wrongGameHelp:
+          '\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442 500 \u0431\u044b\u0441\u0442\u0440\u044b\u0445 \u043a\u043b\u0438\u043a\u043e\u0432 \u0434\u043b\u044f \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f "Wrong Game".',
       },
     };
   let advInterval = null,
@@ -435,7 +515,7 @@
       r = document.getElementById("accountLevel");
     (a && n && (a.style.backgroundImage = `url("${n}")`),
       o && (o.textContent = uiState.accountName),
-      r && (r.textContent = `Level: ${uiState.currentLevel}`));
+      r && (r.textContent = `${tx("level")}: ${uiState.currentLevel}`));
   }
   function setActiveTab(e) {
     activeTab = e;
@@ -1485,12 +1565,16 @@
         pt: ICONS.flagBR,
         en: ICONS.flagEN,
         fr: ICONS.flagFR,
+        tr: ICONS.flagTR,
+        ru: ICONS.flagRU,
       };
       e.style.backgroundImage = `url("${t[lang] || ICONS.flagBR}")`;
     }
     document.querySelectorAll("[data-lang-option]").forEach((e) => {
       const t = e.getAttribute("data-lang-option") === lang;
       ((e.style.background = t ? "#00c78b" : "#f8f1e3"),
+        (e.style.justifyContent = "flex-start"),
+        (e.style.whiteSpace = "nowrap"),
         (e.style.color = "#1a1a1a"),
         (e.style.boxShadow = t ? "inset 0 0 0 2px #1a1a1a" : "none"));
     });
@@ -1582,6 +1666,24 @@
       H = document.getElementById("settingsPanel"),
       j = document.getElementById("tabGeneral"),
       U = document.getElementById("tabAchievements");
+    const appendLangOption = (e, t, n) => {
+      if (!D || D.querySelector(`[data-lang-option="${e}"]`)) return;
+      const a = document.createElement("button"),
+        o = document.createElement("span"),
+        r = document.createElement("span");
+      ((a.type = "button"),
+        a.setAttribute("data-lang-option", e),
+        (a.style.cssText =
+          "width:100%;display:flex;align-items:center;justify-content:flex-start;gap:8px;padding:8px;border:none;border-radius:8px;background:#f8f1e3;color:#1a1a1a;font-weight:700;cursor:pointer;white-space:nowrap"),
+        (o.style.cssText = `width:18px;height:18px;border-radius:50%;display:block;flex:none;background:url('${n}') center/cover no-repeat`),
+        (r.textContent = t),
+        a.appendChild(o),
+        a.appendChild(r),
+        D.appendChild(a));
+    };
+    D && (D.style.minWidth = "140px");
+    appendLangOption("tr", "T\u00fcrk\u00e7e", ICONS.flagTR);
+    appendLangOption("ru", "\u0420\u0443\u0441\u0441\u043a\u0438\u0439", ICONS.flagRU);
     H && ((H.style.maxHeight = "320px"), (H.style.overflowY = "auto"));
     const appendSettingRange = (e) => {
       if (!H) return null;

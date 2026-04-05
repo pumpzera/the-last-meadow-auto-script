@@ -7,6 +7,13 @@ Automation script for The Last Meadow.
 - Original project by [@Relemey](https://github.com/Relemey)
 - Further development and publication by [@pumpzera](https://github.com/pumpzera)
 
+## Disclaimer
+
+- This project is not affiliated with, endorsed by, or partnered with Discord.
+- Use of this script may violate Discord rules, game rules, or other platform policies.
+- Any use of this project is entirely at the user's own risk, including possible restrictions or bans.
+- This repository is only a modified and extended version of the original add-on created by [@Relemey](https://github.com/Relemey).
+
 ## Files
 
 - `the-last-meadow-auto-script.user.js`: main script
