@@ -11,11 +11,22 @@ Automation script for The Last Meadow.
 
 - `the-last-meadow-auto-script.user.js`: main script
 
-## Usage
+## Quick Start
 
-1. Open the game page.
-2. Inject or run `the-last-meadow-auto-script.user.js` in the browser context.
-3. Use the in-game control panel created by the script.
+1. Open Discord and navigate to The Last Meadow.
+2. Open Developer Tools.
+3. Windows/Linux: `Ctrl + Shift + I`
+4. macOS: `Cmd + Option + I`
+5. Open the `Console` tab.
+6. If paste is blocked, type `allow pasting` and press Enter.
+7. Paste the script from `the-last-meadow-auto-script.user.js`.
+8. Press Enter.
+
+## Stop the Script
+
+```js
+stopMeadowScript()
+```
 
 ## Notes
 
